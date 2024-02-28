@@ -1,0 +1,12 @@
+name: ort-session-bench
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - onnxruntime-novec
+  - spox
+  - py-spy
+  - mypy
+  - numpy
+  - flake8
